@@ -28,6 +28,7 @@ if (mysqli_connect_errno())
       $password = mysqli_real_escape_string($con,$_POST['password']); 
       
       $sql = "SELECT username FROM login WHERE username = 'username' and password = 'password';";
+      $sql = "SELECT username FROM login WHERE username = 'username' and password = 'password';";
       $result = mysqli_query($con,$sql);
       //$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       $active = $row['active'];
