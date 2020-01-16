@@ -23,6 +23,14 @@ class Car{
     }
 
 }
+<?php
+echo "<br>";
+class Car{
+    function Car(){
+        $this->model= "maruthi suzuki";
+    }
+
+}
 //create an object
 $herbie=new Car();
 //show object properties
